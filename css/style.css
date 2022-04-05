@@ -1,0 +1,54 @@
+/* style 시작 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+.s0 {
+   background: url('../img/main_img\(3\).png')no-repeat;
+ background-size: cover;
+}
+
+#fp-nav ul li .fp-tooltip {
+  
+    color: #333;
+  
+}
+#fp-nav ul li a span {
+background-color: #ddd;
+width: 100%;
+height: 1px;
+}
+
+/* 햄버거 메뉴 모양  */
+input[id="menuicon"] {
+   display: none;
+}
+
+input[id="menuicon"] + label {
+display: block;
+width: 60px;
+height: 40px;
+position: relative;
+cursor: pointer;
+ }
+ input[id="menuicon"] + label span {
+     display: block;
+     position: absolute;
+     width: 100%;
+     height: 5px;
+     border-radius: 30px;
+     background: #000;
+     transition: all .35s;
+ }
+ input[id="menuicon"] + label span:nth-child(1) {
+     top: 0;
+ }
+ input[id="menuicon"] + label span:nth-child(2) {
+     top: 50%;
+     transform: translateY(-50%);
+ }
+ input[id="menuicon"] + label span:nth-child(3) {
+    bottom: 0;
+}

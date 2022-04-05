@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2022 송경아 Web Site</title>
+    <!-- css 연동 -->
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 파비콘 연동 -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+
+    <!-- js 연동 -->
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
+
 <body>
-    
+
+    <header id="header">
+        <input type="checkbox" id="menuicon">
+        <label for="menuicon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    </header>
+
+    <!-- header -->
+    <div id="full-page">
+
+        <div class="section s0">
+            <h2>section 0</h2>
+        </div>
+
+
+        <div class="section s1">
+            <h2>section 1</h2>
+        </div>
+
+
+        <div class="section s2">
+            <h2>section 2</h2>
+        </div>
+
+
+        <div class="section s3">
+            <h2>section 3</h2>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script>
+        new fullpage('#full-page', {
+            licenseKey: '',
+            navigation: true,
+            navigationTooltips: ['Home', 'About Me', 'Project', 'Contact'],
+            scrollingSpeed: 1000,
+            css3: true,
+
+
+        });
+    </script>
+
+
 </body>
+
 </html>
