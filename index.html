@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2022 송경아 Web Site</title>
+    <!-- 아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 구글 폰트 -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <!-- css 연동 -->
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,44 +23,150 @@
 
 
     <!-- js 연동 -->
+  
     <script src="js/fullpage.min.js"></script>
-    <script src="js/script.js"></script>
+  
 </head>
 
 <body>
 
-    <header id="header">
+
+    <heder id="header">
 
         <div class="btn">
-            <input type="checkbox" id="menuicon">
 
+
+            <input type="checkbox" id="menuicon">
             <label for="menuicon">
                 <span></span>
                 <span></span>
                 <span></span>
+
             </label>
+
             <div class="sidebar">
-                
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
             </div>
         </div>
-       
-    </header>
+    </heder>
 
     <!-- header -->
+
     <div id="full-page">
 
         <div class="section s0">
-            <h2>section 0</h2>
+            <div class="container">
+                <div class="title__Text">
+                    <h1>Portfolio</h1>
+
+                </div>
+
+                <div class="title__introduce">
+                    <p class="name">Kyung Ah Song</p>
+                    <p class="job">Web publisher</p>
+                </div>
+            </div>
         </div>
 
-
-        <div class="section s1">
-            <h2>section 1</h2>
-        </div>
+<!--section s0-->
+        <div class="section s1" id="contanier">
 
 
-        <div class="section s2">
-            <h2>section 2</h2>
+
+            <div class="box">
+                <h2>About Me</h2>
+
+                <div class="profile">
+                    <img src="img/nav_img.jpg" alt="">
+                </div>
+
+                <div class="description">
+                    <p>
+                        웹 컨텐츠를 구현하기 위해 필요한 , 다양한 도전, 스킬, 트렌드에 관심이 많아 <br>
+                        빠르게 변하는 웹 프로그램을 사용자 입장에서 생각하며, 더 좋은 방향으로 갈 수 있는 길을 고민합니다. <br>
+                        아직 화려한 스킬이나 완벽한 역량을 갖추지 않았지만 프로젝트에 참여해 더 열심히 해 보고자 합니다.
+                    </p>
+                </div>
+
+                <div class="skills">
+                    <div class="skills__icon">
+                        <i class="fa-brands fa-html5"></i>
+                        <p>
+                            HTML 하드코딩 <br>
+                            웹 접근성 , 웹유효성 준수 <br>
+                            HTML 마크업
+                        </p>
+                    </div>
+
+                    <div class="skills__icon">
+                        <i class="fa-brands fa-css3"></i>
+                        <p>
+                            반응형 레이아웃 <br>
+                            스타일 시트<br>
+                            애니메이션 동작 구현
+
+
+                        </p>
+                    </div>
+
+                    <div class="skills__icon">
+                        <i class="fa-brands fa-js-square"></i>
+                        <p>
+
+                            자바스크립트 구현 <br>
+                            제이쿼리 플러그인 <br>
+                            애니메이션 동작 구현
+                         </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="about__jobs">
+
+                <div class="jobs_icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="job__description">
+                    <p class="job__name">UI/UX 스마트앱 콘텐츠 제작과정</p>
+                    <p class="job__time">2021.09.29 ~ 2022.02.25</p>
+                </div>
+
+
+                <div class="jobs_icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="job__description">
+                        <p class="job__name">웹퍼블리셔(웹 디자인)UI/UX 프론트앤드과정</p>
+                        <p class="job__time">2020.01.07 ~ 2020.05.27</p>
+                    </div>
+                    </div>
+                    
+                    </div>
+                    
+                    <!--section s1-->
+                    
+                    <div class="section s2">
+
+                   
+
+                            <h2>My work</h2>
+                    
+                    
+                            <div class="modal">
+                                <div class="modal_body">안녕하세요</div>
+                            </div>
+                            
+                            <button class="btn-open-popup">Modal</button>
+    
+                       
+
         </div>
 
 
@@ -75,9 +190,14 @@
 
 
         });
+
+
+
+
     </script>
 
 
 </body>
 
+<script src="js/script.js"></script>
 </html>

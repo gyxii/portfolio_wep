@@ -1,15 +1,40 @@
 /* style 시작 */
+@font-face {
+    font-family: 'SuncheonB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #333;
+    color: #000;
+
+    font-size: 16px;
+
 }
 
-.s0 {
-    background: url('../img/main_img\(3\).png') no-repeat;
-    background-size: cover;
+ul {
+    list-style: none;
+}
 
+a {
+    text-decoration: none;
+}
+
+
+
+.fp-tableCell {
+    display: table;
 }
 
 #fp-nav ul li .fp-tooltip {
@@ -19,19 +44,16 @@
 }
 
 #fp-nav ul li a span {
-    background-color: #ddd;
+    background: rgb(206, 201, 201);
     width: 100%;
     height: 1px;
 }
 
-/* 햄버거 메뉴 모양  */
-.btn {
-   display: block;
-   position: fixed;
-   top: 35px;
-   right: 35px;
-
+#fp-nav ul li .fp-tooltip {
+    font-family: 'SuncheonB';
 }
+
+/* 햄버거 메뉴 모양  */
 input[id="menuicon"] {
     display: none;
 
@@ -40,23 +62,25 @@ input[id="menuicon"] {
 input[id="menuicon"]+label {
     display: block;
     width: 30px;
-    height: 20px;
+    height: 25px;
     position: relative;
     cursor: pointer;
-  
- 
-  
+    z-index: 9999;
+
+
+
 }
 
 input[id="menuicon"]+label span {
     display: block;
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 3px;
     border-radius: 30px;
-    background: rgb(195, 192, 192);
+    background: rgb(206, 201, 201);
     transition: all .35s;
-   
+
+
 }
 
 input[id="menuicon"]+label span:nth-child(1) {
@@ -71,17 +95,221 @@ input[id="menuicon"]+label span:nth-child(2) {
 input[id="menuicon"]+label span:nth-child(3) {
     bottom: 0;
 }
+
 input[id="menuicon"]:checked+label span:nth-child(1) {
     top: 50%;
     transform: translateY(-50%) rotate(45deg);
-}
-input[id="menuicon"]:checked+label span:nth-child(2) {
-   opacity: 0;
 
 }
+
+input[id="menuicon"]:checked+label span:nth-child(2) {
+    opacity: 0;
+}
+
 input[id="menuicon"]:checked+label span:nth-child(3) {
- bottom: 50%;
+    bottom: 50%;
     transform: translateY(50%) rotate(-45deg);
 }
 
+
 /* 햄버거 메뉴 */
+.sidebar {
+    width: 100%;
+    height: 100%;
+    background: url("../img/main_img\(2\).png") no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all .50s;
+}
+
+input[id="menuicon"]:checked+label+div {
+    right: 0;
+}
+
+.btn {
+    position: fixed;
+    right: 25px;
+    top: 20px;
+    z-index: 9999;
+}
+
+/*section s0*/
+
+.s0 {
+
+    font-family: 'SuncheonB';
+    background: url('../img/main_img\(3\).png') no-repeat;
+    background-size: cover;
+
+
+}
+
+.title__Text {
+    padding: 500px 10px 0 100px;
+}
+
+.title__Text h1 {
+
+    font-size: 5rem;
+
+}
+
+.name {
+    padding: 20px 20px 0 120px;
+    font-size: 1.5rem;
+}
+
+.job {
+    padding: 10px 20px 0 120px;
+
+}
+
+/*section s1*/
+#contanier {
+    max-width: 1250px;
+    margin: 0 auto;
+
+
+}
+
+
+.s1 {
+    font-family: 'IBMPlexSansKR-Regular';
+
+}
+
+.box {
+    text-align: center;
+}
+
+.s1 h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.profile {
+    text-align: center;
+
+
+}
+
+.profile img {
+    width: 230px;
+
+}
+
+.description p {
+    font-size: 0.8rem;
+    color: #333;
+    margin: 20px 0 20px 0;
+    line-height: 30px;
+
+}
+
+.skills__icon p {
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+
+.job__description p {
+    font-size: 0.8rem;
+}
+
+.skills {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 40px 0;
+    margin-bottom: 50px;
+}
+
+.skills__icon i {
+
+    width: 170px;
+    height: 170px;
+    font-size: 70px;
+    line-height: 170px;
+    margin: auto;
+    border: 1px solid thistle;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+.jobs_icon {}
+
+.jobs_icon i {
+    font-size: 2.5rem;
+}
+
+.about__jobs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0 50px;
+
+
+}
+
+/*section s2*/
+.section {
+    position: relative;
+}
+.s2 {
+    
+    border: 1px solid #000;
+    font-family: 'IBMPlexSansKR-Regular';
+    background: url('../img/dalcom_bg.png') no-repeat center/cover;
+}
+
+.s2 h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 50px;
+}
+
+.section_inner {
+    border: 1px solid #000;
+    
+    
+}
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: none;
+   
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal.show {
+    display: block;
+  }
+
+  .modal_body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 400px;
+    height: 600px;
+
+    padding: 40px;
+
+    text-align: center;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+
+    transform: translateX(-50%) translateY(-50%);
+  
+  }
