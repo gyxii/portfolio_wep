@@ -808,7 +808,7 @@ input[id="menuicon"]+label {
   padding: 20px;
 }
 .body-contentbox {
-    min-height: 390px;
+    min-height: 380px;
     max-height: 400px;
 }
 
