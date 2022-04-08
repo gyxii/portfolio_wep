@@ -808,8 +808,8 @@ input[id="menuicon"]+label {
   padding: 20px;
 }
 .body-contentbox {
-   
-    max-height: 550px;
+    min-height: 390px;
+    max-height: 400px;
 }
 
 .footer_inner {
