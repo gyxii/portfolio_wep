@@ -809,10 +809,18 @@ input[id="menuicon"]+label {
 }
 .body-contentbox {
     min-height: 380px;
-    max-height: 400px;
+    max-height: 375px;
+    
 }
 
 .footer_inner {
     font-family: 'IBMPlexSansKR-Regular';
     font-size: 1rem;
     margin-top: 100px;
+
+}
+
+.popup_img {
+  overflow-wrap: normal;
+    border: 1px solid #000;
+}
