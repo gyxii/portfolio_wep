@@ -18,7 +18,6 @@
     padding: 0;
     box-sizing: border-box;
     color: #000;
-
     font-size: 16px;
 
 }
@@ -131,6 +130,7 @@ input[id="menuicon"]:checked+label+div {
     right: 25px;
     top: 20px;
     z-index: 9999;
+    
 }
 
 /*section s0*/
@@ -335,6 +335,37 @@ input[id="menuicon"]:checked+label+div {
    
 
 }
+
+#modal-open4  {
+    font-family: 'IBMPlexSansKR-Regular';
+    display: inline-block;
+   width: 300px;
+      background: #fff;
+      text-align: center;
+      line-height: 40px;
+      box-shadow: 2px 2px 8px rgb(0 0 0 / 30%);
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 50px;
+     margin-right: 25px;
+   
+
+}
+#modal-open5  {
+    font-family: 'IBMPlexSansKR-Regular';
+    display: inline-block;
+   width: 300px;
+      background: #fff;
+      text-align: center;
+      line-height: 40px;
+      box-shadow: 2px 2px 8px rgb(0 0 0 / 30%);
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 50px;
+     margin-right: 25px;
+   
+
+}
 #modal-open:hover {
     box-shadow: 2px 2px 8px rgb(0 0 0 / 80%);
     transition: all 0.5s;
@@ -344,6 +375,18 @@ input[id="menuicon"]:checked+label+div {
     transition: all 0.5s;
   }
   #modal-open2:hover {
+    box-shadow: 2px 2px 8px rgb(0 0 0 / 80%);
+    transition: all 0.5s;
+  }
+  #modal-open4:hover {
+    box-shadow: 2px 2px 8px rgb(0 0 0 / 80%);
+    transition: all 0.5s;
+  }
+  #modal-ope5:hover {
+    box-shadow: 2px 2px 8px rgb(0 0 0 / 80%);
+    transition: all 0.5s;
+  }
+  #modal-ope6:hover {
     box-shadow: 2px 2px 8px rgb(0 0 0 / 80%);
     transition: all 0.5s;
   }
@@ -543,3 +586,68 @@ input[id="menuicon"]:checked+label+div {
         background-color:#8DC1CF; 
         box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3); 
       }
+
+        /*section s6*/
+        .s6 {
+
+            text-align: center;
+            background: #fff;
+            font-family: 'IBMPlexSansKR-Regular';
+           
+            
+        }
+        
+        .s6 h2 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-top: 50px;
+            color:#CC4E55;
+            margin-bottom: 100px;
+        }
+
+        .popup4{
+            max-width:1920px;        
+            border-radius:10px;    
+        
+            background-color:#CC4E55; 
+            box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3); 
+          }
+
+            /*section s7*/
+        .s7 {
+
+            text-align: center;
+            background: #fff;
+            font-family: 'IBMPlexSansKR-Regular';
+           
+            
+        }
+        
+        .s7 h2 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-top: 50px;
+            color:#CC4E55;
+            margin-bottom: 100px;
+        }
+
+        .popup5{
+            max-width:1920px;        
+            border-radius:10px;    
+        
+            background-color:#CC4E55; 
+            box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3); 
+          }
+
+          /*footer*/
+
+          .footer_inner {
+         
+         
+            color: #fff;   
+            font-family: 'IBMPlexSansKR-Regular';
+            font-size: 1rem;
+        
+            margin-top: 180px;
+            
+          }
