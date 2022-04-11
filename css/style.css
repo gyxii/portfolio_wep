@@ -702,121 +702,142 @@ input[id="menuicon"]:checked+label+div {
 /*반응형*/
 @media screen and (max-width:768px) {
 
-* {
-    font-size: 12px;
-}
-.sidebar h1 {
-    font-size: 3rem;
-    margin-bottom: 400px;
-    margin-top: 100px;
-    text-decoration: underline;
-}
-.title__Text {
-    padding: 497px 0px 0 30px;
-}
-.title__Text h1 {
-    font-size: 4rem;
-}
-.name {
-    padding: 20px 0px 0 50px;
-  
-}
-.job {
-    padding: 10px 20px 0 50px;
-}
-.s1 h2 {
-   
-    margin-top: 10px;
-}
-input[id="menuicon"]+label {
- 
-    width: 25px;
-    height: 22px;
- 
-}
-.description {
-    max-width: 370px;
-    margin: 0 auto;
-}
-.description p {
-  
-    line-height: 22px;
-}
-.profile img {
-    width: 150px;
-}
-.project__img {
-    width: 80%;
-    margin: 0 auto;
-}
-.skills {
- padding: 0;
-    flex-direction: column;
-    margin-bottom: 0;
- 
-}
+    * {
+        font-size: 12px;
+    }
 
-.skills__icon p {
-    display: none;
-    
-}
+    .sidebar h1 {
+        font-size: 3rem;
+        margin-bottom: 400px;
+        margin-top: 100px;
+        text-decoration: underline;
+    }
 
-.skills__icon i {
-    width: 100px;
-    height: 100px;
-    font-size: 40px;
-    line-height: 100px;
-  
-}
-.about__jobs {
-    flex-direction: column;
-    gap: 0 0px;
-    text-align: center;
-}
-.jobs_icon i {
-    font-size: 1.5rem;
-}
+    .title__Text {
+        padding: 497px 0px 0 30px;
+    }
 
-#modal-open {
-  margin-right: 0;
-  margin-top: 100px;
-}
-#modal-open1 {
-    margin-right: 0;
-    margin-top: 100px;
-  }
-  #modal-open2 {
-    margin-right: 0;
-    margin-top: 100px;
-  }
-  #modal-open3 {
-    margin-right: 0;
-    margin-top: 100px;
-  }
-  #modal-open4 {
-    margin-right: 0;
-    margin-top: 100px;
-  }
-  #modal-open5 {
-    margin-right: 0;
-    margin-top: 100px;
-  }
-.btn_box a {
-  margin-top: 20px;
-}
-.body-content {
-  padding: 20px;
-}
-.body-contentbox {
-    min-height: 380px;
-    max-height: 375px;
-    
-}
+    .title__Text h1 {
+        font-size: 4rem;
+    }
 
-.footer_inner {
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 1rem;
-    margin-top: 100px;
+    .name {
+        padding: 20px 0px 0 50px;
 
-}
+    }
 
+    .job {
+        padding: 10px 20px 0 50px;
+    }
+
+    .s1 h2 {
+
+        margin-top: 10px;
+    }
+
+    input[id="menuicon"]+label {
+
+        width: 25px;
+        height: 22px;
+
+    }
+
+    .description {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+
+    .description p {
+
+        line-height: 22px;
+    }
+
+    .profile img {
+        width: 150px;
+    }
+
+    .project__img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .skills {
+        padding: 0;
+        flex-direction: column;
+        margin-bottom: 0;
+
+    }
+
+    .skills__icon p {
+        display: none;
+
+    }
+
+    .skills__icon i {
+        width: 100px;
+        height: 100px;
+        font-size: 40px;
+        line-height: 100px;
+
+    }
+
+    .about__jobs {
+        flex-direction: column;
+        gap: 0 0px;
+        text-align: center;
+    }
+
+    .jobs_icon i {
+        font-size: 1.5rem;
+    }
+
+    #modal-open {
+        margin-right: 0;
+        margin-top: 100px;
+    }
+
+    #modal-open1 {
+        margin-right: 0;
+        margin-top: 100px;
+    }
+
+    #modal-open2 {
+        margin-right: 0;
+        margin-top: 100px;
+    }
+
+    #modal-open3 {
+        margin-right: 0;
+        margin-top: 100px;
+    }
+
+    #modal-open4 {
+        margin-right: 0;
+        margin-top: 100px;
+    }
+
+    #modal-open5 {
+        margin-right: 0;
+        margin-top: 100px;
+    }
+
+    .btn_box a {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 20px;
+    }
+
+    .body-contentbox {
+        min-height: 380px;
+        max-height: 375px;
+
+    }
+
+    .footer_inner {
+        font-family: 'IBMPlexSansKR-Regular';
+        font-size: 1rem;
+        margin-top: 100px;
+
+    }
