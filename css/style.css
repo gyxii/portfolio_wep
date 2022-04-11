@@ -108,7 +108,7 @@ input[id="menuicon"]:checked+label span:nth-child(3) {
 .sidebar {
     width: 100%;
     height: 100%;
-    background: url("../img/main_img.png") no-repeat;
+    background: url("../img/main_img\(3\).png") no-repeat;
     background-size: cover;
     position: fixed;
     top: 0;
@@ -820,7 +820,3 @@ input[id="menuicon"]+label {
 
 }
 
-.popup_img {
-  overflow-wrap: normal;
-    border: 1px solid #000;
-}
