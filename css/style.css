@@ -138,7 +138,7 @@ input[id="menuicon"]:checked+label span:nth-child(3) {
 
 .last_Text {
     font-size: 2.5rem;
-    text-decoration: underline;
+ 
     margin-top: 100px;
 }
 
@@ -153,7 +153,24 @@ input[id="menuicon"]:checked+label+div {
     z-index: 9999;
 
 }
+.notice ul {
+    margin-bottom: 100px;
+}
+.btn_view {
+    width: 200px;
+    padding: 10px 10px;
+    margin-top: 100px;
+    background-color: #CC4E55;
 
+    border-radius: 5px;
+   margin: 0 auto;
+   cursor: pointer;
+  
+}
+.btn_view a {
+    color: #fff;  
+   
+}
 /*section s0*/
 
 .s0 {
