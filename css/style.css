@@ -13,6 +13,10 @@
     font-style: normal;
 }
 
+ 
+
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -121,7 +125,7 @@ input[id="menuicon"]:checked+label span:nth-child(3) {
 
 .sidebar h1 {
     font-size: 4rem;
-    margin-bottom: 400px;
+    margin-bottom: 294px;
     margin-top: 100px;
     text-decoration: underline;
 }
@@ -171,6 +175,7 @@ input[id="menuicon"]:checked+label+div {
     color: #fff;  
    
 }
+
 /*section s0*/
 
 .s0 {
@@ -178,7 +183,7 @@ input[id="menuicon"]:checked+label+div {
     font-family: 'SuncheonB';
     background: url('../img/main_img\(3\).png') no-repeat;
     background-size: cover;
-
+    
 
 }
 
@@ -201,10 +206,13 @@ input[id="menuicon"]:checked+label+div {
     padding: 10px 20px 0 120px;
 
 }
-
+.fp-tableCell {
+    border: 1px solid #000;
+  
+}
 /*section s1*/
 #contanier {
-    max-width: 1250px;
+    max-width: 1200px;
     margin: 0 auto;
 
 
@@ -214,21 +222,24 @@ input[id="menuicon"]:checked+label+div {
 .s1 {
     font-family: 'IBMPlexSansKR-Regular';
 
+    border: 1px solid #f00;
 }
 
 .box {
     text-align: center;
+    height: 100%;
 }
 
 .s1 h2 {
     font-size: 2.8rem;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
 
 }
 
 .profile {
     text-align: center;
+
 
 
 }
@@ -251,9 +262,6 @@ input[id="menuicon"]:checked+label+div {
     line-height: 25px;
 }
 
-.job__description p {
-    font-size: 0.8rem;
-}
 
 .skills {
 
@@ -278,18 +286,8 @@ input[id="menuicon"]:checked+label+div {
 
 
 
-.jobs_icon i {
-    font-size: 2.5rem;
-}
-
-.about__jobs {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 0 50px;
 
 
-}
 
 /*section s2*/
 .section {
@@ -717,6 +715,9 @@ input[id="menuicon"]:checked+label+div {
 }
 
 /*반응형*/
+
+
+
 @media screen and (max-width:768px) {
 
     * {

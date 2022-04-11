@@ -1,3 +1,15 @@
+//Javascript
+//기본 세팅 
+
+let vh = window.innerHeight * 0.01; 
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+//화면 리사이즈시 변경 
+
+window.addEventListener('resize', () => { let vh = window.innerHeight * 0.01; 
+    document.documentElement.style.setProperty('--vh', `${vh}px`); }); window.addEventListener('touchend', () => { let vh = window.innerHeight * 0.01; 
+    document.documentElement.style.setProperty('--vh', `${vh}px`); });
+
 $(function(){
   $("#confirm").click(function(){
       modalClose(); //모달 닫기 함수 호출
